@@ -1,0 +1,37 @@
+git clone https
+#Amine#2004@
+git add *
+*:all
+git add css/main.css index.html
+git reset head amine.html:jibo mn stage area
+git restore --staged amine.html
+git commit -m"message"
+git status
+git branch
+git push origin branchName
+git pull origin
+git config --global user.email "hh@gmail.xom"
+git config --global user.name "Amine"
+git config --global --unset user.name 
+ssh-keygen -t rsa -b 4096 -C "aminelaouraidi@gmail.com"
+ssh -T git@github.com
+echo. > filename.txt
+
+init from local
+git init
+git add *
+git commit -m"message"
+git remote add origin git@github.com:cr739393933/repos.git
+git push -u origin main
+
+
+git branch name : create new branch
+git checkout name : switch to branch
+
+git branch -d name : delete branch but if have changes not deleted
+git branch -D name : force delete
+
+git checkout -b name : create branch and switch
+git checkout -m newname : rename
+
+git merge namebranch
